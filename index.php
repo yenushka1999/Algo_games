@@ -7,19 +7,20 @@ $logged = is_logged_in();
 <html>
 <head>
 <meta charset="utf-8">
-<title>PDSA Games</title>
+<title>ALGO GAMES</title>
 
 <style>
 body{
     font-family:Arial,Helvetica,sans-serif;
-    background:#f4f6f8;
+    background: url("assets/background.jpg") no-repeat center center fixed;
+    background-size: cover;
     margin:0;
     padding:20px
 }
 .container{
     max-width:900px;
     margin:0 auto;
-    background:#fff;
+    background:#020617;
     padding:20px;
     border-radius:8px
 }
@@ -29,7 +30,7 @@ body{
     padding:12px;
     border-radius:8px;
     border:1px solid #eee;
-    background:#fafafa
+    background:#020617
 }
 button{
     padding:10px;
@@ -39,7 +40,16 @@ button{
     color:#fff;
     cursor:pointer
 }
-small{color:#666}
+
+/* 🔽 EDITED */
+small{color:#ffffff}
+
+/* 🔽 EDITED */
+h1{color:#ffffff}
+
+/* 🔽 ADDED (Login & Register titles) */
+h3{color:#ffffff}
+
 .form-control{
     width:100%;
     padding:8px;
@@ -70,7 +80,7 @@ small{color:#666}
 
 <body>
 <div class="container">
-<h1>PDSA Games</h1>
+<h1>ALGO GAMES</h1>
 
 <?php if (!$logged): ?>
 
